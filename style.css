@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+.main_container{
+    margin: 30px;
+}
+h5{
+    font-size: 1.5rem;
+}
+.small{
+    display: flex;
+    flex-direction: column;
+}
+.small input{
+    border: 1px solid white;
+    width: 250px;
+    padding: 9px 12px;
+    margin-top: 7px;
+}
+.input_container{
+    margin-top: 50px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.addUserbtn{
+    background-color: white;
+    color: black;
+    margin-left: 12px;
+    width: 100px;
+    padding: 8px 12px;
+    margin-top: 20px;
+    border: none;
+}
+#message{
+    font-size: 1.2rem;
+    margin: 12px 12px;
+}
+.add_emp{
+    font-size: 1.2rem;
+    padding-left: 12px;
+}
+#details_container{
+    width: 500px;
+}
+#details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.details_left{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 22px;
+    padding: 16px 0;
+}
+.deletebtn{
+    width: 100px;
+    height: 40px;
+    margin-right: 12px;
+    border-radius: 22px;
+    background-color: white;
+    color: black;
+}

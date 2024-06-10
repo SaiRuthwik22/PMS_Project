@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main_container">
+        <h5>New Employees</h5>
+        <div class="input_container">
+            <div class="input_name small">
+                <label for="name">Enter Name</label>
+                <input type="text" id="name" placeholder="Enter Name">
+            </div>
+            <div class="input_profession small">
+                <label for="profession">Enter Profession</label>
+                <input type="text" id="profession" placeholder="Enter Profession">
+            </div>          
+            <div class="input_age small">
+                <label for="age">Enter Age</label>
+                <input type="text" id="age" placeholder="Enter Age">
+            </div>
+        </div>
+        <button onclick="addUser()" class="addUserbtn">Add User</button>
+        <div id="message"></div>
+        <p class="add_emp">Added Employees</p>
+        <div id="details_container">
+            <p style="font-size: 1.2rem; width: 100%; text-align: center;">Data not found</p>
+        </div>
+    </div>
+    <script src="./script.js" ></script>
+    
+</body>
+</html>
